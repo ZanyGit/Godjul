@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="anima.css">
+    <title></title>
+
+
+
+  </head>
+  <body>
+      <div class="border">
+        <h4>Från Ludvig och Smilla</h4>
+      </div>
+
+      <div class="c-tree">
+
+        <div class="meddelande" onclick="clickity()">
+          Carros present
+        </div>
+        <h3 class="god">God</h3>
+        <h3 class="jul">Jul</h3>
+        <img id="present" class="present" src="presentrbg.png" alt="" onclick="clickity()" >
+        <div id="test" class="test">
+          <img src="förbygel2.jpg" style= "width: 150px; margin-left:75px; margin-top:55px; opacity:1;" alt="">
+          <h4 style="margin-left: 80px;">Från Ludvig och Smilla</h4>
+        </div>
+      </div>
+
+
+    <!-- <div class="little-box">
+
+    </div> -->
+
+
+    <script>
+    // document.getElementById("present").onclick= function(){clickity()};
+
+      function clickity(){
+        var ele = document.getElementById("test");
+
+        // ele.classList.toggle("show");
+
+        console.log(ele.classList.toggle("show"))
+      }
+    </script>
+  </body>
+</html>
