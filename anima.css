@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes example {
+  from {background-color: red; height: 0px; width:300px;}
+  to {background-color: yellow; height: 300px; width:300px;}
+}
+
+.little-box {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  animation: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+.c-tree{
+  position: absolute;
+  top: 5px;
+  left: 7%;
+  width:550px;
+  height:700px;
+  background-image: url("julgran.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px #870000;
+}
+h4{
+  color: #292929;
+  text-shadow: 0px 0px #870000;
+}
+.god{
+  color: red;
+  position: relative;
+  left: 450px;
+  top: 100px;
+  font-size: 62px;
+}
+.jul{
+  color: red;
+  position: relative;
+  left: 480px;
+  top: 100px;
+  font-size: 62px;
+}
+.present{
+  width: 200px;
+  position: relative;
+  top: 255px;
+  left: 525px;
+}
+.present:hover {
+  cursor: pointer;
+}
+.meddelande {
+  text-shadow: 1px 1px #870000;
+  position: relative;
+  background-color: none;
+  font-size: 24px;
+  top: 555px;
+  left: 545px;
+  z-index: 1;
+  color: white;
+  transform: rotate(15deg);
+  padding: 10px;
+  width: 100px;
+}
+.meddelande:hover {
+  cursor: pointer;
+}
+.test {
+  visibility: hidden;
+  position: relative;
+  left: 590px;
+  top: -330px;
+  background-color: red;
+  overflow: hidden;
+  align-items: center;
+  background-image: url("3.jpg");
+  background-size: cover;
+  opacity: 1;
+  border-radius: 10px;
+}
+.show{
+  visibility: visible;
+  animation: example 3s;
+  animation-fill-mode: forwards;
+}
+.border{
+  position: absolute;
+  visibility: hidden;
+}
